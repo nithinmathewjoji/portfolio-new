@@ -1,0 +1,33 @@
+/* Light Theme (Default) */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Button Styles in Dark Theme */
+.dark-theme #theme-toggle {
+    background-color: white;
+    color: black;
+}
