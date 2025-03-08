@@ -9,7 +9,14 @@ body {
 /* Dark Theme */
 .dark-theme {
     background-color: #121212;
-    color: white;
+    color: white;  /* Ensure text is visible in dark mode */
+}
+
+/* Ensure specific elements are visible */
+.dark-theme h1, 
+.dark-theme p, 
+.dark-theme a {
+    color: white;  /* Set text color for all elements */
 }
 
 /* Theme Toggle Button */
